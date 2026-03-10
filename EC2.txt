@@ -1,0 +1,106 @@
+EC2---->Elastic cloud computing (or)Elastic compute cloud
+Ec2---->It is used to craete server in online
+we can create vitual servers in cloud
+online clouding platform is---> AWS
+
+This AWS gives the EC2 as an 5 methods:
+
+1)Free tier:6 months free/we can use 750hours per month using console.(after 6 month it will be converted into busniess tire)
+2)ondemand : with in a short time you need very high infrastructure,(
+you are buying very short time high infrastructure 10000gb  of storage ,5000gb of ram and 2000cpu you need high infrast in short time )--->
+cost is high -->go with ondemand---->like Rental house
+3)Reserved EC2:what ever infrasture you need after 2 month-PREbook it infrastructure here(same high infrastructue too  10000gb  of storage ,5000gb of ram and 2000cpu )
+this cost is very low when comparing ondemand-->you need to pay in advance.--like Rental house
+4)dedicated Ec2: once we are buy the server---Life time owner of the server(once you are buying Dedicated Ec2 you are the owner the server--like own house(In real time -->used 95% customers and Organziztion dedicated EC2)
+5)Spot EC2:acution method
+how acution method worked on it---example TCS COMPANY(In Reserved EC2 -pre book infrastructure to 12 months but your project completed in 8 month --->balance  they have 4 months---given to aws support center 
+the aws support center given to acution method to another orgization--example wipro-->testing and design purpose
+
+one is free tier another one is business tier(ondemand,reserved EC2,dedicated EC2,spotEC2)
+this is the pricing model(SAA-Solution aricture)
+
+-----------------------
+cloud will give the server IN RIR method
+RIR--->Remote Internet Rental
+AWS --kept only internet ---i will give the infrastructure that infra given as---rental method--that Rental method given as an-pay as you go method
+what is pay as you go method?
+pay as you go method means what ever infrasture you used that only the cost.not for the whole aws console cost
+------------------------------
+Reginous-Data centers:--rental method
+There are 39 data centers
+in india 2 data centers
+mumbai-2016
+hydrabad-2022
+---------------
+1)the first cloud computing lanuched 2006 Northern virgina(aws-is the first cloud lanuched in market)
+2)2nd Azure -2010
+3)3rd one GCP
+---------------------------
+note:EC2-->it helps to create a server in online
+AWS gives the-->cloud COMPUTING method that is---(RIR)Rental method
+when the AWS lanuched -2006- northern vrigina
+-----------------------
+we have 6 types launch the server:
+1)go to aws console login 
+2)search box ---search EC2
+Ec2 (virtual server in the cloud)
+3)ec2 dashbored(left side)-->Instances -->click and right side Lanuch instances hit that
+(Instances is nothing but server) and server is nothing but instances
+now i just want to create one server here
+------------
+step1:Name of the server lanch as server name LINUX
+step2:OS selection
+defalut:Amazon Linux(aws)(what ever os you want select here (ubuntu,red hat,cent os, fedora,debian,suse linux)--->distribution
+----------------------This is EC2 creation Terminals creation
+
+
+free tire eligible
+mac os , windows is differnt
+step3:Instance type:(cpu and then RAM)
+t3.micro (new account)
+t2.micro(old account)
+Step4:key pair:(without a keypair)
+step5:network supporting(vpc) default
+step6:cofiguration storage
+every linux machine default 8 GB
+EBS -Elastic BlockStorage(free eligible customer can getup 30GB)-->instances stroage
+if use 31 --->means cost
+name(ins name)--os (os type)--cpu,RAM(ins type),keypair,network,harddisk(configuration storage)
+------------------
+afterthat right side ---->launch instances
+that all our instance is created
+we launched server in cloud in ohion regin
+without the keypair--browser connection
+but in real time we are using withkeypair
+-------------------
+select our instance in the top we have connet button-->hit that -->connect
+CLI ---display-->use the all devops tools-->terminals
+-----------
+how to delete:instaces state-->terminal delete-->click--->750 hours only so must shutdown terminate
+
+aws--->EC2
+Azure--->virtual machine
+
+  only  cloud is different-->command is same terminal
+---------------------------------------------------------
+traditional method:
+note:every orgaziontion maintain the own data center
+datacenter maintained by aws
+in this own datacenter we are facing cost issues(we cant maintain cost management)
+very big amount for orgination
+thats why using cloud method
+cloud method:
+cloud will provide the Infrastructure---> rental method RIR
+
+-----------------------------------------------
+keypair-->with
+what is keypair:---->key for that instance
+created new keypair
+.pem--->private enhanced mail--->used windows only--->so you can select (os type--->windows here)
+.ppk--->private putty key-->used linux machine----->so you can select (os type--->amzon linux)-->default
+
+why used keypair:
+keypair used for secure login-->it keeps the server safe and prevents unauthorized access.
+real time thrid party tool based upon the orgization--->putty,visual studio,mobax
+------------------------------------------------------------------------------
+
