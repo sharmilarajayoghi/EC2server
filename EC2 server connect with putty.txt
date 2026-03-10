@@ -1,0 +1,27 @@
+EC2 server coonect with putty:
+
+1)Instances--->hit the Launch instances
+2)Instance name-->1st give (i give Linux)
+3)OS selection: Amazon Linux
+4)Instance type: t3.micro
+5)keypair--create a new key pair-->(keypair means --key for that instance)
+then select .ppk (for use with putty)-->use Linux ,so the .ppk (private putty key - download my local machine)
+after that key pair name type-->(new linux i give name)
+then create key pair
+6)Network settings(vpc)
+7)configure storage(8gb)
+then Launch instance
+-----------------------------
+once created instance
+select instace-->then click connection-->web page terminal opens here
+1)Now connection to putty:
+public ipv4 adrress copy
+open the putty app
+then paste the copied ip to host name
+2)Appearance:Hit the change-->select fontstyle Bold and size:14-->hit ok
+3)colours-->need white background-->use the system colors (white)changed otherwise black background
+4)SSH-->Auth-->credendsial-->first browse(private keyfile authentication)-->select your local machine keypair name
+5)then putty page connected
+6)ask login name here:go to connection--ec2-user -->this user name
+7)then it woking your "linuxdemo"
+-------------------------------------------------
