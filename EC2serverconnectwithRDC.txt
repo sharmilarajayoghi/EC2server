@@ -1,0 +1,24 @@
+EC2 server connect with RDC:--->(Remote Desktop Connection)
+
+1)Instances--->hit the Launch instances
+2)Instance name-->1st give (i give windows)
+3)OS selection: windows
+4)Instance type: t3.micro
+5)keypair--create a new key pair-->(keypair means --key for that instance)
+then select .pem (for use with RDC)-->use Windows machine only,so the .pem (private enchanced mail)
+.pem(ssh connect)---->secure shell connection
+after that key pair name type-->(windowspro i give name)
+then create key pair---in your local machine
+6)Network settings(vpc)
+7)configure storage(8gb)
+then Launch instance
+------------------------------------------------------------------
+then go to instances that displayed in dashboard-->click
+ then go to connect
+1)RDP CLIENT --->HIT---->Download remote desktop file --->click
+2)then download windowspro -->open that file connect means ask password
+3)Get password click-->upload private key file-->then click windowspro.pem-->select then open
+4)Decrypt password-->click password generate --->copy
+5)then past it step 3 open password box filed-->then give yes option
+6)then remote windows open
+----------------------------------------------------
